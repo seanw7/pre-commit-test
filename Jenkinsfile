@@ -10,11 +10,11 @@ pipeline {
 
 
     stages {
-        stage('Checkout') {
-            steps {
-                git '$MY_GITHUB_REPO_URL'
-            }
-        }
+        // stage('Checkout') {
+        //     steps {
+        //         git '$MY_GITHUB_REPO_URL'
+        //     }
+        // }
         stage('Build') {
             steps {
                 sh 'pip install -r requirements.txt'
