@@ -5,6 +5,7 @@ pipeline {
     environment {
         MY_GITHUB_TOKEN = credentials('MY_GITHUB_TOKEN')
         MY_GITHUB_REPO_URL = "https://github.com/seanw7/pre-commit-test.git"
+        DOCKER_HOST = 'unix:///var/run/docker.sock'
     }
 
 
