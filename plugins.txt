@@ -1,0 +1,4 @@
+workflow-aggregator
+git
+warnings-ng
+docker-workflow
